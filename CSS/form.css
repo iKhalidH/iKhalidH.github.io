@@ -1,0 +1,9 @@
+/* This is to center the form */
+form {
+  text-align: center;
+}
+
+/* This is to make the form look aligned */
+#email {
+  padding-right: 1.5rem;
+}

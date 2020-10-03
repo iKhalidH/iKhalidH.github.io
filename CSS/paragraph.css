@@ -1,0 +1,9 @@
+/* Changing the color and size of the paragraph */
+p {
+  font-size: 1.2rem;
+  color: rgb(8, 180, 37);
+}
+/* Changing the size of the hyperlink */
+#link {
+  font-size: 2rem;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- This is the main page -->
+    <meta charset="UTF-8">
+    <title>Saudi Arabia Map</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- This is an internal CSS used to style different HTML elements -->
+    <style>
+        /* Used to make the four headings inline with the rest of the paragraph */
+        h3 {
+            display: inline;
+        }
+
+        /* Used to style all four paragraps */
+        .Paragraph {
+            font-size: 1.1rem;
+        }
+
+        /* Used to make three of the headings blue (As in the sample page) */
+        .Blue {
+            color: #0773EA;
+        }
+
+        /* Used to format the three images used in each paragraph */
+        .ThumbNail {
+            float: left;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The header of the page -->
+    <header>
+        <!-- The navbar of the page which includes the logo and 6 links -->
+        <div class="navbar">
+            <img src="Images/GIS_Logo.png" alt="GIS logo" id="logo">
+            <ul>
+                <li>
+                    <a href="#">MAPS</a>
+                </li>
+
+                <li>
+                    <a href="#">RESOURCES</a>
+                </li>
+                <li>
+                    <a href="#">EVENTS</a>
+                </li>
+                <li>
+                    <a href="#">PRODUCT</a>
+                </li>
+            </ul>
+            <!-- The registration links -->
+            <span class="registration">
+                <a href="HTML/signIn.html">Sign In</a>
+                <span>/</span>
+                <a href="HTML/signUp.html">Sign Up</a>
+            </span>
+        </div>
+    </header>
+    <div>
+        <!-- a map of Saudi Arabia -->
+        <img src="Images/Saudi_Arabia.jpg" alt="Map of Saudi Arabia" usemap="#Saudimap">
+
+        <!-- This is used to make three clickable circles in the image showing Saudi Arabia near Riyadh, Makkah
+        and Jeddah in that order -->
+        <map name="Saudimap">
+            <area shape="circle" coords="633,430,7" title="Riyadh, The capital of Saudi Arabia." href="HTML/riyadh.html"
+                alt="Riyadh">
+            <area shape="circle" coords="287,605,8" title="Makkah, The holiest city in Islam." href="HTML/makkah.html"
+                alt="Makkah">
+            <area shape="circle" coords="257,594,11" title="Jeddah, Saudi Arabia's commercial center."
+                href="HTML/jeddah.html" alt="Jeddah">
+        </map>
+    </div>
+    <!-- paragraph about Saudi Arabia -->
+
+    <h3>Saudi Arabia Information: </h3>
+    <p><span class=" Paragraph">Saudi Arabia is located in the Middle East. Saudi
+            Arabia is bordered <br> by and the Red Sea to the west, Yemen and Oman to the south, the Arabian Gulf, Qatar
+            and <br> United Arab Emirates to the east, and Kuwait, Iraq, and Jordan to the north.</span>
+    </p>
+    <hr>
+    <div>
+
+        <img src="Images/Google_Earth.jpg" alt="Google Earth" class="ThumbNail">
+        <h3 class="Blue">Explore Saudi Arabia Using Google Earth: </h3>
+        <p><span class="Paragraph">Google Earth
+                is a free<br>
+                program from Google
+                that allows you to explore satellite images showing <br> the cities and landscapes of Saudi
+                Arabia
+                and all of
+                Asia in
+                fantastic <br> detail. It works on your desktop computer, tablet, or mobile phone. The <br>
+                images in many
+                areas are
+                detailed enough that you can see houses, <br> vehicles and even people on a city street. Google
+                Earth
+                is free and
+                easy-to-use.</span>
+        </p>
+    </div>
+    <hr>
+    <div>
+        <img src="Images/World_Map.jpg" alt="Map of The World" class="ThumbNail">
+        <h3 class="Blue">Saudi Arabia on a World Wall Map: </h3>
+        <p><span class="Paragraph"> Saudi Arabia is one
+                of nearly 200 <br> countries illustrated on our Blue Ocean Laminated Map of the World. This <br>
+                map shows a combination of political and physical features. It includes <br> country boundaries,
+                major cities, major mountains in shaded relief, ocean <br> depth in blue color gradient, along
+                with many other features. This is a <br> great map for students, schools, offices and anywhere
+                that a nice map of <br> the world is needed for education, display or decor.</span>
+        </p>
+    </div>
+    <hr>
+    <div>
+        <img src="Images/Asia.jpg" alt="Map of Asia" class="ThumbNail">
+        <h3 class="Blue">Saudi Arabia On a Large Wall Map of Asia: </h3>
+        <p><span class="Paragraph">If you are
+                interested in <br> Saudi Arabia and the geography of Asia our large laminated map of Asia <br>
+                might
+                be
+                just what you need. It is a large political map of Asia that also <br> shows many of the
+                continent's
+                physical features in color or shaded relief. <br> Major lakes, rivers,cities, roads, country
+                boundaries, coastlines and <br> surrounding islands are all shown on the map.</span>
+        </p>
+        <br><br>
+    </div>
+    <hr>
+    <!-- The footer of the page -->
+    <footer>
+        <img src="Images/index_Validator.PNG" alt="index Validator">
+        <p>
+            &copy;Khalid Alamro
+        </p>
+    </footer>
+</body>
+
+</html>

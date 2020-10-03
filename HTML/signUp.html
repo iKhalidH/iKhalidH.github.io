@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- This is the Sign Up page -->
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/form.css">
+</head>
+
+<body>
+    <!-- The header of the page -->
+    <header>
+        <!-- The navbar of the page which includes the logo and 6 links -->
+        <div class="navbar">
+            <img src="../Images/GIS_Logo.PNG" alt="GIS logo" id="logo">
+            <ul>
+                <li>
+                    <a href="#">MAPS</a>
+                </li>
+
+                <li>
+                    <a href="#">RESOURCES</a>
+                </li>
+                <li>
+                    <a href="#">EVENTS</a>
+                </li>
+                <li>
+                    <a href="#">PRODUCT</a>
+                </li>
+            </ul>
+            <!-- The registration links -->
+            <span class="registration">
+                <a href="signIn.html">Sign In</a>
+                <span>/</span>
+                <a href="signUp.html">Sign Up</a>
+            </span>
+        </div>
+    </header>
+    <div>
+        <!-- A registeration form, I used GET method just to be able to see the results,
+        but realistically I would've used POST method as it is more secure -->
+        <form method="GET">
+            <label>First name:</label>
+            <input type="text" placeholder="Khalid" name="firstName"><br>
+            <label>Last name:</label>
+            <input type="text" placeholder="Alamro" name="lastName"><br>
+            <label id="email">Email:</label>
+            <input type="email" placeholder="a@outlook.com" name="Email"><br>
+            <label>Password:</label>
+            <input type="password" name="Password">
+            <br><br>
+            <input type="submit">
+        </form>
+    </div>
+    <br><br>
+    <hr>
+    <!-- The footer of the page -->
+    <footer>
+        <img src="../Images/SignUp_Validator.PNG" alt="Sign Up Validator">
+        <p>
+            &copy;Khalid Alamro
+        </p>
+    </footer>
+
+</body>
+
+</html>
